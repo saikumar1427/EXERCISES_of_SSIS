@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="5"
-  DTS:VersionGUID="{D4F46C03-6402-4350-87DA-2BF5FB88C825}">
+  DTS:VersionBuild="7"
+  DTS:VersionGUID="{862D1D51-FE49-4894-9D2B-C1EF2EA6D593}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAIgtoHt8d2EmOKkAwhfcpfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAC+kBX6JGuTvgyMhhnhy2ksAAAAAASAAACgAAAAEAAAAE8xIYyZvolXQew7Q2bl2X4QAAAAqNE3lKjRMs0XMg3hDF7tihQAAABmVQCXPSeppMoyFeK90I1ofTALCg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAIgtoHt8d2EmOKkAwhfcpfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADFzpfxFx/EqhOTLBsCSlzaAAAAAASAAACgAAAAEAAAALqXg3SeOrnG2PqlFxtCdlQQAAAANq/CeFiAbdVwViP4Ja5zBxQAAAAL3dmLzpohWPuJRcwNs9r2dWeWHA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -40,12 +40,12 @@
         <ODataConnectionManager
           UserName="vkondeti@mss123.onmicrosoft.com"
           Url="https://mss123.sharepoint.com/sites/ssis/_vti_bin/listdata.svc"
-          ConnectionString="Service Document Url=https://mss123.sharepoint.com/sites/ssis/_vti_bin/listdata.svc;Include Atom Elements=Auto;Include Expanded Entities=False;Integrated Security=False;Cookie=&quot;SPOIDCRL=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U1A+VjUsMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwMzNlN2YzNzlAbGl2ZS5jb20sMCMuZnxtZW1iZXJzaGlwfHZrb25kZXRpQG1zczEyMy5vbm1pY3Jvc29mdC5jb20sMTMxODkwMjA3NjkwMDAwMDAwLDEzMTg5MDA3ODY5MDAwMDAwMCwxMzE4OTEwNzE3NDU4NDM2OTksMC4wLjAuMCw0LGU5ODRiNjMzLWMyNTMtNDU2OS04OTkzLTFmM2M5MGJiZGY0MiwsLGM2MDVhYjllLWEwMDYtMDAwMC0xODg2LTJmZmEwYzAwYjMzYSxjNjA1YWI5ZS1hMDA2LTAwMDAtMTg4Ni0yZmZhMGMwMGIzM2EsLDAsMCwwLCxrQzRTYzV0aWJsT3hWdU1hZ3RMQ3Q3MGRya2R3ZE1yMkt4UWlaRlk4WVdGNUtncTBwb1V5cEpOVjk0TVpLNzN5L0JIMEE0WXNHWUVwQWF3aitYZHVYYU0xQ2VJNUIzNUcyZ3RXdms4b2F5ejNtdXJza3NDVG90b3ZaRVFGOXppTkk5Ky9qL1p1dXVPakZveHQ2cjB5VFc0WDNUUFN1d3ZHd2JQVTZieEdubGR0a0E4bmpCZTlXbjBvbVVJWVdLcWdSZUNvaUwzcUpKOEt6RDY5cmxtYkxFN2tjNU5aWVJ2YVVJV1BYQnBDelpGMlY1Vlc4ZmpHcHY5aEVUcDRvSStIUWplY0Y1d0ZOSmdKZFVSTGU4MkEvL0FUSjR2V0IrdkJJcmtLWTQwRHRpcUxOdEpUVGI3YjNVN1Q4RURJeVFSV2dSb0wxbjlnMFFmTDRMTVh6ZmxzUlE9PTwvU1A+&quot;;User ID=vkondeti@mss123.onmicrosoft.com;Persist Security Info=False;Time Out=600;Schema Sample Size=25;Retry Count=5;Retry Sleep=100;Keep Alive=False;Max Received Message Size=4398046511104"
+          ConnectionString="Service Document Url=https://mss123.sharepoint.com/sites/ssis/_vti_bin/listdata.svc;Include Atom Elements=Auto;Include Expanded Entities=False;Integrated Security=False;Cookie=&quot;SPOIDCRL=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U1A+VjUsMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwMzNlN2YzNzlAbGl2ZS5jb20sMCMuZnxtZW1iZXJzaGlwfHZrb25kZXRpQG1zczEyMy5vbm1pY3Jvc29mdC5jb20sMTMxODkwMjI4NTcwMDAwMDAwLDEzMTg5MDA3ODY5MDAwMDAwMCwxMzE4OTEwOTI1NzcwNjQ1MTIsMC4wLjAuMCw0LGU5ODRiNjMzLWMyNTMtNDU2OS04OTkzLTFmM2M5MGJiZGY0MiwsLGMyMDdhYjllLWIwOWEtMDAwMC0xODY0LTY2YWU5NWQ2NmMwOCxjMjA3YWI5ZS1iMDlhLTAwMDAtMTg2NC02NmFlOTVkNjZjMDgsLDAsMCwwLCxaZ2toUW5kc1Ntd3pRTkdSWEY2SmxSbFhSMkFva2w4NXJJUlhjclpKcURvRWgzRHVYMW9Sdi9jeVIzVlZQRTBLRGpXaUc0Ull3MzlsRGppVnBzakRnS3pxb0c3bndXQkYwa0NxUWJkMVFiRFBmQnY4V3hSeVRpSmZRZGx0NEZUVXlNeEVqOTZWSE90Z2ZsNENTVS9ZMytJOUpSdWtJcXo0Z1lsVGFDRjdJaW84V3cxTDJVbDFNbDVDQ2x1bGt2MC80QmY2QjVCbW50NUVIcERoRSsyekE5WlhnRGl1R1dKOXJvNXNBNmhoRzdYbzBjL2pnU2VmcHAwdTRUeFVRZzhaRmE5YUtRU1RxS3FzK1Z4TGtUcXRKTzFjU2cxY1lMd29nY0RsWmNqSUpQWWNvV2d4UzN2WFJTOWVXRHJCdkpiTEZSL0NzcDdramVURzczZnhITGZRK1E9PTwvU1A+&quot;;User ID=vkondeti@mss123.onmicrosoft.com;Persist Security Info=False;Time Out=600;Schema Sample Size=25;Retry Count=5;Retry Sleep=100;Keep Alive=False;Max Received Message Size=4398046511104"
           MicrosoftOnlineServicesAuth="True"
           AuthType="MicrosoftOnlineService">
           <Password
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAIgtoHt8d2EmOKkAwhfcpfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAbNJRQMs07NfKg8wgR2RilAAAAAASAAACgAAAAEAAAALMBMklIMQS6qfGwZT4JyZ4YAAAAfnB9sAFIjVe4pYf13261J1j/tPni85zBFAAAAE/AcVjTZ97hZK1yeGBNnwG5k3Ji</Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAIgtoHt8d2EmOKkAwhfcpfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABOcVsoyw7rxGgZYrzwkSoaAAAAAASAAACgAAAAEAAAABRGSEGpauWF8+9DIFp8lI0YAAAA3p5THSQiiqoitbUEbpnGpN/dhuWDQWYOFAAAAEliordJlf+eCDP1u1fZoiLDoYnR</Password>
         </ODataConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -602,7 +602,7 @@
     design-time-name="Package\Data Flow Task">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="156,42"
           Id="Package\Data Flow Task\ODS_Sharepoint"
@@ -680,9 +680,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-25.25,40,16,16"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
