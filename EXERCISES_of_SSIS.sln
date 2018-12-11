@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Display_count_of_records", "EXERCISES_of_SSIS\Display_count_of_records.dtproj", "{5A841780-5187-4376-9C9E-4C53D74970CB}"
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SPO_TO_SQL", "SPO_TO_SQL\SPO_TO_SQL.dtproj", "{9D95C989-81A6-4F2B-8702-DA21D7B84D83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A841780-5187-4376-9C9E-4C53D74970CB}.Development|Default.ActiveCfg = Development
+		{5A841780-5187-4376-9C9E-4C53D74970CB}.Development|Default.Build.0 = Development
+		{9D95C989-81A6-4F2B-8702-DA21D7B84D83}.Development|Default.ActiveCfg = Development
+		{9D95C989-81A6-4F2B-8702-DA21D7B84D83}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A4FA9AC-7590-4F3D-8B72-E71F9F2A2BA3}
+	EndGlobalSection
+EndGlobal
